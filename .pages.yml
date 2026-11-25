@@ -1,0 +1,25 @@
+content:
+  - name: homepage
+    label: 바삽 홈페이지
+    type: file
+    path: content.json
+    format: json
+    fields:
+      - name: headline
+        label: 메인 제목
+        type: text
+      - name: intro
+        label: 메인 소개
+        type: text
+      - name: shampooName
+        label: 샴푸 제품명
+        type: string
+      - name: shampooDescription
+        label: 샴푸 설명
+        type: text
+      - name: treatmentName
+        label: 트리트먼트 제품명
+        type: string
+      - name: treatmentDescription
+        label: 트리트먼트 설명
+        type: text
